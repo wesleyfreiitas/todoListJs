@@ -10,7 +10,11 @@
                 <p class="task-name">${itemInput.value}</p>
             </li>
         `
+        itemInput.value = ""
+        itemInput.focus()
     })
+
+
 
 
 })()
